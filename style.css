@@ -67,17 +67,3 @@ p::after {
     margin: 0 0.1rem;
     transform: translateY(-0.3rem);
 }
-
-
-/* p {
-    width: 100%; 
-    text-align: center; 
-    border-bottom: 1px solid #000; 
-    line-height: 0.1em;
-    margin: 10px 0 20px; 
- } 
- p span { 
-    text-align: center;
-    background:#fff; 
-    padding:0 10px; 
- } */

@@ -43,7 +43,7 @@ i{
     background-color: rgb(249,247,243);
     margin: 5px;
 }
-.login{
+#login{
     color: white;
     text-emphasis-color: whitesmoke;
     margin: 10px;
@@ -53,17 +53,9 @@ i{
     width: 400px;
     border-radius: 25px;
 }
-.login:hover{
+#login:hover{
     font-size: large;
     height: 45px;
     width: 425px;
 }
-p::before,
-p::after {
-    display: inline-block;
-    content: "";
-    border-top: 0.1rem solid black;
-    width: 37%;
-    margin: 0 0.1rem;
-    transform: translateY(-0.3rem);
-}
+

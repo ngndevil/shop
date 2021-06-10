@@ -1,16 +1,19 @@
 body {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgb(230, 228, 218);
     background-size: contain ;
     display: flex;  
     width: 100%;
     justify-content: center;
+    flex-direction: column;
 }
 .card{
     border: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 30px;
     text-align: center; 
     /* margin-bottom: 25%; */
-    margin-top: 15%;
+    margin-left: 32%;
+    margin-top: 1%;
     height: 300px;
     width: 500px;
     background-color: white;
@@ -58,4 +61,12 @@ i{
     height: 45px;
     width: 425px;
 }
-
+#img{
+    display: block;
+    height: 180px;
+    width: 190px;
+    border: none;
+    border-radius: 30px;
+    margin-left: 42%;
+    margin-right: auto;
+}

@@ -10,10 +10,14 @@ function checkpass(){
     var pass = document.getElementById("password").value;
     var email = document.getElementById("email").value;
     if(pass != "admin" || email != "admin"){
-       document.getElementById("wrong").innerHTML = "Sai username hoặc passwword! Mời nhập lại";
+       document.getElementById("wrong").innerHTML = "Sai username hoặc password! Mời nhập lại";
     }
-    else
-        document.getElementById("wrong").innerHTML = "";
+    else{
+        var link = document.createElement('a');
+        link.href = "http://127.0.0.1:5500/homepage.html";
+        link.click();
+    }
+
 }
 
 document.getElementById("login").onclick = function() {checkpass()};

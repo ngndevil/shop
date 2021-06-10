@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="card">
+        <h2>LOGIN</h2>
+        <h4>NEW TO NEEDSPACE ?
+            <span>
+                <a href="https://signup-dsc.web.app" style="color: orangered;">SIGN UP FOR FREE</a>
+            </span>
+        </h4>
+        <div>
+            <input id="email" placeholder="Email"/><br>
+        </div>
+        <div>
+            <input class="input" type="password" name="password" id="password" placeholder="Enter the password">
+            <i class="far fa-eye" id="togglePassword"></i>
+        </div>
+        <div>
+            <button type="submit" class="login" style="background-color: rgb(93, 97, 114);"><strong>LOG IN</strong></button>
+        </div>
+    </div>
+    <script>
+        // function show(){
+        //     let element = document.getElementById("show");
+        //     if (element.type === "password"){
+        //         element.type = "text"
+        //     }
+        //     else{
+        //         element.type = "password"
+        //     }
+        const togglePassword = document.querySelector('#togglePassword');
+        const password = document.querySelector('#password');
+        togglePassword.addEventListener('click', function (e){
+            const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+            password.setAttribute('type', type);
+            this.classList.toggle('fa-eye-slash');
+    }); 
+    </script>
+</body>
+</html>

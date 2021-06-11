@@ -15,7 +15,5 @@ function showhidelist(){
        stt = false;
     }
 }
-function check(){
-    console.log(1)
-}
+
 document.getElementById("dssp").onclick = function() {showhidelist()};

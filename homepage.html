@@ -7,13 +7,15 @@
     <title>Military Shop</title>
     <link rel="stylesheet" href="hompage.css">
     <link rel="stylesheet" href="hompagevanh.css">
+    <link rel="stylesheet" href="slideshow.css">
 </head>
 <body>
+
     <div id="bar">
         <a href="http://127.0.0.1:5500/homepage.html">
             <img id="logo" src="logo.png">
         </a>
-        <p id="nameshop">MILITARY SHOP</p>
+        <a href="http://127.0.0.1:5500/homepage.html" id="nameshop">MILITARY SHOP</a>
         <input id="search" placeholder="Tìm kiếm..."/><br>
         <button type="submit" id="searchbutton">
             <img id="kinhlup" src="search.png">
@@ -23,38 +25,43 @@
             <img id="giohang" src="gioihang.png">
         </a>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div class="dssp"><p>DANH SÁCH SẢN PHẨM</p></div>
-    <div class="rf"><p>RIFLE</p></div>
-    <div class="mg"><p>MACHINE GUN</p></div>
-    <div class="pt"><p>PISTOL</p></div>
-    <div class="sr"><p>SNIPER RIFLE</p></div>
-    <div class="gn"><p>GRENADE</p></div>
-    <div class="am"><p>ARMOR</p></div>
-    <div class="rk"><p>ROCKET</p></div>
-    <div class="acsr"><p>ACCESSORIES</p></div>
-    
+    <div style="display: flex;flex-direction: row;">
+        <div d="list">
+            <div class="dssp"><p>DANH SÁCH SẢN PHẨM</p></div>
+            <div class="product"><p>RIFLE</p></div>
+            <div class="product"><p>MACHINE GUN</p></div>
+            <div class="product"><p>PISTOL</p></div>
+            <div class="product"><p>SMG</p></div>
+            <div class="product"><p>SNIPER RIFLE</p></div>
+            <div class="product"><p>ROCKET</p></div>
+            <div class="product"><p>GRENADE</p></div>
+            <div class="product"><p>ARMOR</p></div>
+            <div class="product"><p>ACCESSORIES</p></div>
+        </div>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+            <img src="ads1.png" style="width:100%">
+            </div>
+      
+            <div class="mySlides fade">
+                <img src="ads2.png" style="width:100%">
+            </div>
+      
+            <div class="mySlides fade">
+                <img src="ads3.png" style="width:100%">
+            </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+    </div>
+      <br>
+     
+    </div>
+    <script></script>
 </body>
 </html>

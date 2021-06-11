@@ -10,7 +10,7 @@ function checkpass(){
     var pass = document.getElementById("password").value;
     var email = document.getElementById("email").value;
     if(pass != "admin" || email != "admin"){
-       document.getElementById("wrong").innerHTML = "Sai username hoặc password! Mời nhập lại";
+        alert("Sai username hoặc password! Mời nhập lại");
     }
     else{
         var link = document.createElement('a');
@@ -21,3 +21,4 @@ function checkpass(){
 }
 
 document.getElementById("login").onclick = function() {checkpass()};
+// document.getElementById("password").onkeypress = function() {checkpass()};

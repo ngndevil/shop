@@ -1,10 +1,13 @@
 var stt = false;
 var id = ["rf","pt","mg","smg","sr","rk","gn","am","asr"];
+function sleep(ms) {//function thời gian nghỉ
+   return new Promise(resolve => setTimeout(resolve, ms));}  
 function showhidelist(){
     if(stt == false){
         for(let i = 0;i < id.length;i++){
             var nameid = id[i]
             document.getElementById(nameid).style.display = "block";
+            document.getElementById(nameid).style.animation = "move 0.35s";
         }
         stt = true;
     }else{

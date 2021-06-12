@@ -1,0 +1,71 @@
+#listsp{
+    height: 1000px;
+    margin: none;
+    display: flex;
+    flex-direction: row;
+}
+#hang{
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 150px;
+    width: 330px;
+}
+#hang1:hover{
+    box-shadow: 1px 2px 8px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    height: 335px;
+    width: 415px;
+}
+#hang2:hover{
+    box-shadow: 1px 2px 8px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    height: 335px;
+    width: 415px;
+}
+#hang1{
+    margin-top: 5%;
+    margin-left:10%;
+    height: 300px;
+    width: 410px;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+}
+#hang2{
+    margin-top: 5%;
+    height: 300px;
+    width: 410px;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.button{
+    background-color: brown;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#info{
+    margin-top: 0%;
+    /* margin-right: 10%; */
+    height: 10%;
+    width: 30%;
+}
+#info:hover{
+    height: 12%;
+    width: 32%;
+}
+.add{
+    margin-top: 0%;
+    height: 10%;
+    width: 50%;
+}
+.add:hover{
+    height: 12%;
+    width: 52%;
+}
+

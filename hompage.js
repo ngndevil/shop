@@ -36,23 +36,23 @@ function showhidelist(){
  function sr(){
     var link = document.createElement('a');
     link.href = "http://127.0.0.1:5500/sr.html";
-    ink.click();}
+    link.click();}
  function rk(){
     var link = document.createElement('a');
     link.href = "http://127.0.0.1:5500/rk.html";
-    ink.click();}
+    link.click();}
  function gn(){
     var link = document.createElement('a');
     link.href = "http://127.0.0.1:5500/gn.html";
-    ink.click();}
+    link.click();}
  function am(){
     var link = document.createElement('a');
     link.href = "http://127.0.0.1:5500/am.html";
-    ink.click();}
+    link.click();}
  function asr(){
     var link = document.createElement('a');
     link.href = "http://127.0.0.1:5500/asr.html";
-    ink.click();}
+    link.click();}
 
 
  document.getElementById("dssp").onclick = function() {showhidelist()};

@@ -9,7 +9,3 @@ function addsp(){
         document.getElementById("dsgh").appendChild(giohang);         
 }
 
-document.getElementById("add").onclick = function() {thongbao();addsp();};
-document.getElementById("add1").onclick = function() {thongbao();addsp();};
-document.getElementById("add2").onclick = function() {thongbao();addsp();};
-document.getElementById("add3").onclick = function() {thongbao();addsp();};

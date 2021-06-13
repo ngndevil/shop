@@ -7,13 +7,22 @@ function showhidelist(){
         for(let i = 0;i < id.length;i++){
             var nameid = id[i]
             document.getElementById(nameid).style.display = "block";
+            document.getElementById("spnb").style.display = "none";
+            document.getElementById("namespnb").style.display = "none";
+            function showspnb() {
+               document.getElementById("spnb").style.display = "block";
+               document.getElementById("namespnb").style.display = "block";
+              }
+              setTimeout(showspnb, 350);
             document.getElementById(nameid).style.animation = "move 0.35s";
+            document.getElementById("namespnb").style.marginTop = "0%";
         }
         stt = true;
     }else{
         for(let i = 0;i < id.length;i++){
             var nameid = id[i]
             document.getElementById(nameid).style.display = "none";
+            document.getElementById("namespnb").style.marginTop = "40%";
         }
        stt = false;}}
  function logout(){

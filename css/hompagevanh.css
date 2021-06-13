@@ -1,6 +1,6 @@
 #dssp {
     margin-left: 4.4%;
-    width: 20%;
+    width: 100%;
     text-align: center;
     padding-top: 1px;
     padding-right: 1px;
@@ -14,7 +14,7 @@
 #rf {
     display: none;
     margin-left: 4.5%;
-    width: 19.92%;
+    width: 100%;
     text-align: center;
     padding-top: 1px;
     padding-right: 1px;
@@ -31,7 +31,7 @@
 #mg{
     display: none;
     margin-left: 4.5%;
-    width: 19.92%;
+    width: 100%;
     text-align: center;
     padding-top: 1px;
     padding-right: 1px;
@@ -48,7 +48,7 @@
 #smg{
     display: none;
     margin-left: 4.5%;
-    width: 19.92%;
+    width: 100%;
     text-align: center;
     padding-top: 1px;
     padding-right: 1px;
@@ -65,7 +65,7 @@
 #pt{
     display: none;
     margin-left: 4.5%;
-    width: 19.92%;
+    width: 100%;
     text-align: center;
     padding-top: 1px;
     padding-right: 1px;
@@ -82,7 +82,7 @@
 #rk{
     display: none;
     margin-left: 4.5%;
-    width: 19.92%;
+    width: 100%;
     text-align: center;
     padding-top: 1px;
     padding-right: 1px;
@@ -99,7 +99,7 @@
 #sr{
     display: none;
     margin-left: 4.5%;
-    width: 19.92%;
+    width: 100%;
     text-align: center;
     padding-top: 1px;
     padding-right: 1px;
@@ -116,7 +116,7 @@
 #gn{
     display: none;
     margin-left: 4.5%;
-    width: 19.92%;
+    width: 100%;
     text-align: center;
     padding-top: 1px;
     padding-right: 1px;
@@ -133,7 +133,7 @@
 #am{
     display: none;
     margin-left: 4.5%;
-    width: 19.92%;
+    width: 100%;
     text-align: center;
     padding-top: 1px;
     padding-right: 1px;
@@ -150,7 +150,7 @@
 #asr{
         display: none;
         margin-left: 4.5%;
-        width: 19.92%;
+        width: 100%;
         text-align: center;
         padding-top: 1px;
         padding-right: 1px;

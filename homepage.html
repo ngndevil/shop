@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="/css/hompage.css">
     <link rel="stylesheet" href="/css/hompagevanh.css">
     <link rel="stylesheet" href="/css/slideshow.css">
+    <link rel="stylesheet" href="/css/product.css">
 </head>
-<body><div id="bar">
+<body>
+    <div id="bar">
         <a href="http://127.0.0.1:5500/homepage.html">
             <img id="logo" src="/image/logo.png">
         </a>
@@ -26,7 +28,7 @@
         <button type="submit" id="logout">LOG OUT</button>
     </div>
     <div id="adslist">
-        <div>
+        <div id="list">
             <button id="dssp"><p>DANH SÁCH SẢN PHẨM</p></button>
             <div id="rf"><p>RIFLE</p></div>
             <div id="mg"><p>MACHINE GUN</p></div>
@@ -38,9 +40,80 @@
             <div id="am"><p>ARMOR</p></div>
             <div id="asr"><p>ACCESSORIES</p></div>
         </div>
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <div class="slide first">
+                    <img src="/image/ads1.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="/image/ads2.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="/image/ads3.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="/image/ads4.png" alt="">
+                </div>
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+            </div>
+            <div class="navigation-manual">
+                <label id="ads1" for="radio1" class="manual-btn"></label>
+                <label id="ads2" for="radio2" class="manual-btn"></label>
+                <label id="ads3" for="radio3" class="manual-btn"></label>
+                <label id="ads4" for="radio4" class="manual-btn"></label>
+            </div>
+        </div>
+        
+        <script type="text/javascript">
+            var counter = 0;
+            function myFunction(){
+                counter = counter+1;
+                if(counter > 4)
+                    counter = 1;
+                document.getElementById("ads"+counter).click()
+                
+            }
+            setInterval(() => {myFunction()}, 3000)
+        </script>
+    </script>
+    </div>
+    <div id="namespnb">Sản Phẩm Nổi Bật</div>
+    <div id="spnb">
+    <div id="listspngang">
+        <div id="hang1">
+            <img id="hang" src="/image/m4.png">
+            <p>M4A1</p>
+            <p>3200$</p>
+            <button class="button" id="info" onclick="thongbao();addgh();">Xem thông tin</button>
+            <button class="button" id="add" onclick="thongbao();addgh();">Thêm vào giỏ hàng</button>
+        </div>
+        <div id="hang2">
+            <img id="hang" src="/image/ak.png">
+            <p>AK</p>
+            <p>2700$</p>
+            <button class="button" id="info">Xem thông tin</button>
+            <button class="button" id="add1">Thêm vào giỏ hàng</button>
+        </div>
+        <div id="hang2">
+            <img id="hang" src="/image/m16.png">
+            <p>M16</p>
+            <p>3000$</p>
+            <button class="button" id="info">Xem thông tin</button>
+            <button class="button" id="add2">Thêm vào giỏ hàng</button>
+        </div>
+        </div>
+        
     </div>
     <script  src="/js/hompage.js"></script>
-    
-    
+    <script  src="/js/addgh.js"></script>
 </body>
 </html>

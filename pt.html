@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Piston</title>
     <link rel="stylesheet" href="/css/bar.css">
+    <link rel="stylesheet" href="/css/product.css">
 </head>
 <body>
     <div id="bar">
@@ -23,7 +24,23 @@
         </a>
         <button type="submit" id="logout">LOG OUT</button>
     </div>
-    <h1>pt</h1>
-    <script  src="/js/rf.js"></script>
+    <div id="namelist">PISTOL</div>
+    <div id="listspngang">
+        <div id="hang1">
+            <img id="hang" src="/image/DE.png">
+            <p>Desert Eagle</p>
+            <p>700$</p>
+            <button class="button" id="info">Xem thông tin</button>
+            <button class="button" id="add" onclick="thongbao();addsp()">Thêm vào giỏ hàng</button>
+        </div>
+        <div id="hang2">
+            <img id="hang" src="/image/glock.png">
+            <p>GLOCK</p>
+            <p>500$</p>
+            <button class="button" id="info">Xem thông tin</button>
+            <button class="button" id="add" onclick="thongbao();addsp()">Thêm vào giỏ hàng</button>
+    </div>
 </body>
+    <script  src="/js/logout.js"></script>
+    <script  src="/js/addgh.js"></script>
 </html>

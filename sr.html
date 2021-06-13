@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SR Gun</title>
     <link rel="stylesheet" href="/css/bar.css">
+    <link rel="stylesheet" href="/css/product.css">
 </head>
 <body>
     <div id="bar">
@@ -23,7 +24,24 @@
         </a>
         <button type="submit" id="logout">LOG OUT</button>
     </div>
-    <h1>SR</h1>
+    <div id="namelist">Sniper Rife</div>
+    <div id="listspngang">
+        <div id="hang1">
+            <img id="hang" src="/image/Barret.png">
+            <p>Barret MRAD</p>
+            <p>5000$</p>
+            <button class="button" id="info">Xem thông tin</button>
+            <button class="button" id="add" onclick="thongbao();addsp()">Thêm vào giỏ hàng</button>
+        </div>
+        <div id="hang2">
+            <img id="hang" src="/image/M24.png">
+            <p>M24</p>
+            <p>3500$</p>
+            <button class="button" id="info">Xem thông tin</button>
+            <button class="button" id="add" onclick="thongbao();addsp()">Thêm vào giỏ hàng</button>
+    </div>
+    </div>
     <script  src="/js/logout.js"></script>
+    <script  src="/js/addgh.js"></script>
 </body>
 </html>

@@ -5,40 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rife Gun</title>
-    <link rel="stylesheet" href="bar.css">
-    <link rel="stylesheet" href="rf.css">
+    <link rel="stylesheet" href="/css/bar.css">
+    <link rel="stylesheet" href="/css/rf.css">
 </head>
 <body>
     <div id="bar">
         <a href="http://127.0.0.1:5500/homepage.html">
-            <img id="logo" src="logo.png">
+            <img id="logo" src="/image/logo.png">
         </a>
         <a href="http://127.0.0.1:5500/homepage.html" id="nameshop">MILITARY SHOP</a>
         <input id="search" placeholder="Tìm kiếm..."/><br>
         <button type="submit" id="searchbutton">
-            <img id="kinhlup" src="search.png">
+            <img id="kinhlup" src="/image/search.png">
             <strong>Tìm kiếm</strong>
         </button>
         <a href="http://127.0.0.1:5500/giohang.html">
-            <img id="giohang" src="gioihang.png">
+            <img id="giohang" src="/image/giohang.png">
         </a>
         <button type="submit" id="logout">LOG OUT</button>
     </div>
-    <div id="listsp">
+    <div id="namelist">ASSAULT RIFE</div>
+    <div id="listspdoc">
+    <div id="listspngang">
         <div id="hang1">
-            <img id="hang" src="ads3.png">
+            <img id="hang" src="/image/ads3.png">
             <p>M4A1</p>
-            <button class="button" id="info">Xem thông tin</button>
-            <button class="button add" >Thêm vào giỏ hàng</button>
+            <button class="button" id="info" onclick="thongbao();addgh();">Xem thông tin</button>
+            <button class="button" id="add" onclick="thongbao();addgh();">Thêm vào giỏ hàng</button>
         </div>
         <div id="hang2">
-            <img id="hang" src="ak.png">
+            <img id="hang" src="/image/ak.png">
             <p>AK</p>
             <button class="button" id="info">Xem thông tin</button>
-            <button class="button add" >Thêm vào giỏ hàng</button>
+            <button class="button" id="add1">Thêm vào giỏ hàng</button>
+        </div>
+        <div id="hang2">
+            <img id="hang" src="/image/m16.png">
+            <p>M16</p>
+            <button class="button" id="info">Xem thông tin</button>
+            <button class="button" id="add2">Thêm vào giỏ hàng</button>
+        </div>
+        <br>
+        
+    </div>
+    <div id="listspngang1">
+        <div id="hang1">
+            <img id="hang" src="/image/AR15.png">
+            <p>AR15</p>
+            <button class="button" id="info" onclick="thongbao();addgh();">Xem thông tin</button>
+            <button class="button" id="add3" onclick="thongbao();addgh();">Thêm vào giỏ hàng</button>
         </div>
     </div>
-    <script  src="logout.js"></script>
-    <script  src="addgh.js"></script>
+    <script  src="/js/logout.js"></script>
+    <script  src="/js/addgh.js"></script>
 </body>
 </html>

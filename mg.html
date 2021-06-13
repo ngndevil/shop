@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Machine Gun</title>
     <link rel="stylesheet" href="/css/bar.css">
+    <link rel="stylesheet" href="/css/mg.css">
 </head>
 <body>
     <div id="bar">
@@ -23,7 +24,14 @@
         </a>
         <button type="submit" id="logout">LOG OUT</button>
     </div>
-    <h1>MG</h1>
+    <div id="namelist">MACHINE GUN</div>
+    <div id="hang1">
+        <img id="hang" src="/image/M2.png">
+        <p>M2</p>
+        <button class="button" id="info" onclick="thongbao();addgh();">Xem thông tin</button>
+        <button class="button" id="add" onclick="thongbao();addgh();">Thêm vào giỏ hàng</button>
+    </div>
     <script  src="/js/logout.js"></script>
+    <script  src="/js/addgh.js"></script>
 </body>
 </html>

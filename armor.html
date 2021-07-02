@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Machine Gun</title>
+    <title>Armor</title>
     <link rel="stylesheet" href="/css/bar.css">
     <link rel="stylesheet" href="/css/product.css">
 </head>
@@ -24,15 +24,25 @@
         </a>
         <button type="submit" id="logout">LOG OUT</button>
     </div>
-    <div id="namelist">MACHINE GUN</div>
-    <div id="hang1">
-        <img id="hang" src="/image/M2.png">
-        <p>M2</p>
-        <p>4000$</p>
-        <button class="button" id="info">Xem thông tin</button>
-        <button class="button" id="add" onclick="thongbao();addsp()">Thêm vào giỏ hàng</button>
+    <div id="namelist">Armor</div>
+    <div id="listspngang">
+        <div id="hang1">
+            <img id="hang" src="/image/NIJ3a.png">
+            <p>Body Armor NIJ3a</p>
+            <p>500$</p>
+            <button class="button" id="info" onclick="bodyarmor()">Xem thông tin</button>
+            <button class="button" id="add" onclick="thongbao();addsp()">Thêm vào giỏ hàng</button>
+        </div>
+        <div id="hang2">
+            <img id="hang" src="/image/helmet.png">
+            <p>Helmet Soldier</p>
+            <p>300$</p>
+            <button class="button" id="info" onclick="helmet()">Xem thông tin</button>
+            <button class="button" id="add" onclick="thongbao();addsp()">Thêm vào giỏ hàng</button>
     </div>
+</body>
     <script  src="/js/logout.js"></script>
     <script  src="/js/addgh.js"></script>
+    <script  src="/js/detail.js"></script>
 </body>
 </html>

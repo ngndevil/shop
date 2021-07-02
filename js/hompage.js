@@ -22,7 +22,7 @@ function showhidelist(){
         for(let i = 0;i < id.length;i++){
             var nameid = id[i]
             document.getElementById(nameid).style.display = "none";
-            document.getElementById("namespnb").style.marginTop = "40%";
+            document.getElementById("namespnb").style.marginTop = "83.7vh";
         }
        stt = false;}}
  function logout(){
@@ -31,15 +31,15 @@ function showhidelist(){
     link.click();}
  function rf(){
     var link = document.createElement('a');
-    link.href = "http://127.0.0.1:5500/rf.html";
+    link.href = "http://127.0.0.1:5500/rife.html";
     link.click();}
  function mg(){
     var link = document.createElement('a');
-    link.href = "http://127.0.0.1:5500/mg.html";
+    link.href = "http://127.0.0.1:5500/machinegun.html";
     link.click();}
  function pt(){
     var link = document.createElement('a');
-    link.href = "http://127.0.0.1:5500/pt.html";
+    link.href = "http://127.0.0.1:5500/piston.html";
     link.click();}
  function smg(){
     var link = document.createElement('a');
@@ -47,23 +47,23 @@ function showhidelist(){
     link.click();}
  function sr(){
     var link = document.createElement('a');
-    link.href = "http://127.0.0.1:5500/sr.html";
+    link.href = "http://127.0.0.1:5500/sniperife.html";
     link.click();}
  function rk(){
     var link = document.createElement('a');
-    link.href = "http://127.0.0.1:5500/rk.html";
+    link.href = "http://127.0.0.1:5500/rocket.html";
     link.click();}
  function gn(){
     var link = document.createElement('a');
-    link.href = "http://127.0.0.1:5500/gn.html";
+    link.href = "http://127.0.0.1:5500/grenade.html";
     link.click();}
  function am(){
     var link = document.createElement('a');
-    link.href = "http://127.0.0.1:5500/am.html";
+    link.href = "http://127.0.0.1:5500/armor.html";
     link.click();}
  function asr(){
     var link = document.createElement('a');
-    link.href = "http://127.0.0.1:5500/asr.html";
+    link.href = "http://127.0.0.1:5500/accessories.html";
     link.click();}
 
 

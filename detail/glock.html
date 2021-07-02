@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Armor</title>
+    <title>Thông tin sản phẩm</title>
     <link rel="stylesheet" href="/css/bar.css">
-    <link rel="stylesheet" href="/css/product.css">
+    <link rel="stylesheet" href="/css/detail.css">
 </head>
 <body>
     <div id="bar">
@@ -24,24 +24,20 @@
         </a>
         <button type="submit" id="logout">LOG OUT</button>
     </div>
-    <div id="namelist">Armor</div>
-    <div id="listspngang">
-        <div id="hang1">
-            <img id="hang" src="/image/NIJ3a.png">
-            <p>Body Armor NIJ3a</p>
-            <p>500$</p>
-            <button class="button" id="info">Xem thông tin</button>
-            <button class="button" id="add" onclick="thongbao();addsp()">Thêm vào giỏ hàng</button>
+    <div id="detail">
+        <img id="img" src="/image/glock.png">
+        <div id="info">
+            <h1 class= "info1">GLOCK</h1>
+            <li>Đạn: 9x19mm Parabellum (Glock 17, 18, 19, 26, 34); 10mm Auto (Glock 20, 29); .45 ACP (Glock 21, 30, 36); .40 S&W (Glock 22, 23, 24, 27, 35); .380 ACP (Glock 25, 28); .357 SIG (Glock 31, 32, 33); .45 GAP (Glock 37, 38, 39)</li>
+            <li>Cơ cấu hoạt động: Short recoil operated, locked breech, tilting barrel (straight blowback for .380 ACP variants)</li>
+            <li>Tốc độ bắn: 1.100-1.200 viên/phút (Glock 18)</li>
+            <li>Tầm bắn hiệu quả: 50 m (Glock 17, 17C, 18, 18C)</li>
+            <li>Chế độ nạp: Nhiều loại Hộp tiếp đạn với các sức chứa khác nhau</li>
+            <button class="button" id="add">Thêm vào giỏ hàng</button>
         </div>
-        <div id="hang2">
-            <img id="hang" src="/image/helmet.png">
-            <p>Helmet Soldier</p>
-            <p>300$</p>
-            <button class="button" id="info">Xem thông tin</button>
-            <button class="button" id="add" onclick="thongbao();addsp()">Thêm vào giỏ hàng</button>
     </div>
-</body>
     <script  src="/js/logout.js"></script>
     <script  src="/js/addgh.js"></script>
+    <script  src="/js/detail.js"></script>
 </body>
 </html>

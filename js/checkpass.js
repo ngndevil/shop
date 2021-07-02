@@ -6,7 +6,7 @@ togglePassword.addEventListener('click', function (e){
     this.classList.toggle('fa-eye-slash');
 }); 
 
-function checkpass(){
+function checkpass(){ // check user & pass
     var pass = document.getElementById("password").value;
     var email = document.getElementById("email").value;
     if(pass != "admin" || email != "admin"){
